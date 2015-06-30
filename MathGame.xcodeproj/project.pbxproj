@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BDAC8EC11B431935003C4DD0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BDAC8EC01B431935003C4DD0 /* main.c */; };
+		BDAC8EC91B43196C003C4DD0 /* MathGame.c in Sources */ = {isa = PBXBuildFile; fileRef = BDAC8EC71B43196C003C4DD0 /* MathGame.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		BDAC8EBD1B431935003C4DD0 /* MathGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MathGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDAC8EC01B431935003C4DD0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		BDAC8EC71B43196C003C4DD0 /* MathGame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MathGame.c; sourceTree = "<group>"; };
+		BDAC8EC81B43196C003C4DD0 /* MathGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathGame.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				BDAC8EC01B431935003C4DD0 /* main.c */,
+				BDAC8EC71B43196C003C4DD0 /* MathGame.c */,
+				BDAC8EC81B43196C003C4DD0 /* MathGame.h */,
 			);
 			path = MathGame;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDAC8EC11B431935003C4DD0 /* main.c in Sources */,
+				BDAC8EC91B43196C003C4DD0 /* MathGame.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
